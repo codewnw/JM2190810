@@ -12,6 +12,7 @@ public class GreetServlet extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		System.out.println("GreetServlet: doGet");
 		PrintWriter out = resp.getWriter();
 		out.print("Good morning...");
 	}
