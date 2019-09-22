@@ -40,6 +40,7 @@ public class JavaServlet extends HttpServlet {
 				+ trainerMobile + "</strong></p>");
 
 		ServletContext context = config.getServletContext();
+		context.setAttribute("location", "Marathahalli, BLR");
 		String instituteName = context.getInitParameter("institute");
 		out.print("<p>Your institute is <strong>" + instituteName + "</strong></p>");
 	}
