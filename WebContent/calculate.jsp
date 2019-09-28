@@ -1,0 +1,7 @@
+
+<%
+	int num1 = Integer.parseInt(request.getParameter("firstNumber"));
+	int num2 = Integer.parseInt(request.getParameter("secondNumber"));
+
+	out.print("Division is: " + (num1 / num2));
+%>
