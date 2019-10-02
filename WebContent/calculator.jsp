@@ -14,5 +14,6 @@
     <input type="number" name="secondNumber" id="secondNumber" value="" placeholder="Enter second number">
       <input type="submit" value="Calculate">
 </form>
+
 </body>
 </html>
